@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: white;
+    color: black;
+    font-family: "Jersey 10", sans-serif;
+    font-size: 1.2rem;
+}
+
+input {
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+input,
+button {
+    font: inherit;
+    font-size: 1.2em;
+}
+
+button {
+    background-color: black;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    padding: 4px 8px;
+}
+
+button:hover {
+    background-color: rgb(145, 145, 145);
+}
+
+h1 {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+
+label {
+    font-size: 1.2em;
+    grid-column: 1 / 3;
+}
+
+th {
+    font-size: 20px;
+    padding: 10px;
+}
+
+td,
+th {
+    text-align: center;
+}
+
+td {
+    padding: 10px;
+}
+
+.search-bar {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto;
+    gap: 10px 5px;
+}
+
+.card {
+    border-radius: 10px;
+    width: 350px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
+    background-color: black;
+    color: black;
+}
+
+.info {
+    background-color: white;
+    height: 40%;
+    border-radius: 5px;
+    color: black;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.title {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.indent {
+    margin-left: 10px;
+}
+
+.tags {
+    border-radius: 4px;
+    padding: 4px 8px;
+    background-color: black;
+    color: white;
+    margin-right: 5px;
+}
+
+.stats {
+    height: 200px;
+    border-collapse: collapse;
+    flex-grow: 1;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.right-col {
+    width: 40%;
+}
+
+#img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
